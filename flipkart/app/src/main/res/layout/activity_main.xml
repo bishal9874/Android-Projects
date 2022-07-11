@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    app:layoutDescription="@xml/activity_main_scene">
+
+
+
+    <EditText
+        android:id="@+id/editMobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Search your product, Brands and More"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="16dp"></EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:gravity="center|right"
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="389dp"
+        android:layout_height="103dp"
+        android:background="@drawable/hh"
+        tools:ignore="MissingConstraints">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="27dp">
+
+        <LinearLayout
+            android:id="@+id/innerLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/peak_flow"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/i" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/f" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/g" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/c" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/b" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/a" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="409dp"
+        android:layout_height="494dp"
+        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteY="221dp">
+
+        <HorizontalScrollView
+            android:id="@+id/hk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:fillViewport="true"
+            android:measureAllChildren="false"
+            android:scrollbars="none"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="27dp">
+
+            <LinearLayout
+                android:id="@+id/i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/peak"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="400sp"
+                        android:layout_height="300sp"
+                        android:src="@drawable/add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/peak1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="400sp"
+                        android:layout_height="300sp"
+                        android:src="@drawable/add2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/peak2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="400sp"
+                        android:layout_height="300sp"
+                        android:src="@drawable/add3" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout9"
+        android:layout_width="409dp"
+        android:layout_height="187dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="543dp">
+        <LinearLayout
+            android:id="@+id/ig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+
+            <LinearLayout
+                android:id="@+id/peak22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/peak23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="198dp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/card2" />
+
+                <ImageView
+                    android:layout_width="10sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/card1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/peak24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_marginEnd="36dp"
+            android:src="@drawable/card3"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
+

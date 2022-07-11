@@ -13,7 +13,7 @@
         android:text="add"
         tools:layout_editor_absoluteX="153dp"
         tools:layout_editor_absoluteY="252dp"
-         />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
@@ -25,7 +25,8 @@
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
 
-        tools:layout_editor_absoluteX="118dp" />
+        tools:layout_editor_absoluteX="118dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -34,7 +35,8 @@
         android:ems="10"
         android:inputType="number"
         tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="53dp" />
+        tools:layout_editor_absoluteY="53dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextNumber2"
@@ -43,6 +45,7 @@
         android:ems="10"
         android:inputType="number"
         tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="134dp" />
+        tools:layout_editor_absoluteY="134dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

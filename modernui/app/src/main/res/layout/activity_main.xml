@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8CFCF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:layout_editor_absoluteX="-34dp"
+        tools:layout_editor_absoluteY="29dp">
+        <!--        <EditText-->
+        <!--            android:id="@+id/name"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:hint="@string/reminder" />-->
+        <!--        <Spinner-->
+        <!--            android:id="@+id/dates"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@id/name"-->
+        <!--            android:layout_alignParentLeft="true"-->
+        <!--            android:layout_toLeftOf="@+id/times" />-->
+        <!--        <Spinner-->
+        <!--            android:id="@id/times"-->
+        <!--            android:layout_width="96dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_below="@id/name"-->
+        <!--            android:layout_alignParentRight="true" />-->
+        <Button
+            android:id="@+id/buttonID"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="17dp"
+            android:text="Click to Navigate"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="214dp" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

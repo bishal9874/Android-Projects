@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "803458444242",
+    "project_id": "fir-conection-f4468",
+    "storage_bucket": "fir-conection-f4468.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803458444242:android:5aaf6b3308399e9988360b",
+        "android_client_info": {
+          "package_name": "com.example.modernui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803458444242-8dciijqad1s7q2pa0a6crldbah5qdino.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHPdGrG82PdEL8HjD_ipyxD2wWKUYPF2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803458444242-8dciijqad1s7q2pa0a6crldbah5qdino.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

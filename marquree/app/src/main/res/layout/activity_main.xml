@@ -17,7 +17,7 @@
         android:padding="10dp"
         android:scrollHorizontally="true"
         android:singleLine="true"
-        android:text="Hello BISHAL!! Welcome to REDUX World !!"
+        android:text="Hello HyperX!! Welcome to REDUX World !!"
         android:textSize="20sp"
         android:textAlignment="center"
         android:textColor="@color/black"
